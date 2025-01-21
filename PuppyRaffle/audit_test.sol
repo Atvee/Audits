@@ -276,7 +276,7 @@ function testReentrancy() public {
       PuppyRaffle puppyraffle;
       uint256 attackerIndex;
 
-    constructo
+    constructor (PuppyRaffle _puppyraffle) {
 
        puppyraffle = _puppyraffle;
        entranceFee = puppyraffle.entranceFee();
